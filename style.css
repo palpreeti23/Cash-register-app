@@ -20,8 +20,11 @@ body{
     flex-direction: column;
     justify-content: center;
     border:  solid ;
-    background-color:#6b21a8 ;
+    background-color: #64748b;
     margin-top: 2rem;
+    border-radius: .8rem;
+    color : #bfdbfe;
+    box-shadow: 6px 7px #475569;
     
 }
 
@@ -38,6 +41,7 @@ body{
 .bill-amount{
     margin-top: .5rem;
     text-align: center;
+  
 }
 
 #bill-amount{
@@ -47,6 +51,7 @@ body{
     padding: .5rem;
     width: 90%;
     border: solid;
+   border-radius: .4rem;
 }
 
 
@@ -61,6 +66,8 @@ body{
     border: solid;
     font-size: large;
     font-weight: bold;
+    border-radius: .4rem;
+   
 }
 
 #check-button{
@@ -68,11 +75,12 @@ body{
     padding: .5rem;
     width: 20%;
     font-size: large;
-    border: solid;
+    border: solid black;
     margin-left: 40%;
     margin-left: 40%;
-    background-color: #7e22ce;
-
+    background-color: #94a3b8;
+    color : #bfdbfe;
+    border-radius: .4rem;
 }
 
 .tb-caption{
@@ -93,7 +101,7 @@ table, td, th {
   th {
     height: 3rem;
     width: 4rem;
-    background-color:#7e22ce;
+    background-color: #94a3b8;
   }
 
   td {
@@ -102,7 +110,7 @@ table, td, th {
   }
 
   .notes{
-    background-color: #7e22ce;
+    background-color: #94a3b8;
   }
 
 
